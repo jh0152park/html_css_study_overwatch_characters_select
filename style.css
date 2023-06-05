@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://imguscdn.gamespress.com/cdn/files/BlizzardLive/2022/09/151014-e696a797/Rio_Paaiso_02_png_jpgcopy.jpg?otf=y&lightbox=y&ex=2023-08-01+03%3A00%3A00&sky=716777b5b83e333998b076058591596353e8621919f7d02fef9bf8833c0c7372&w=1024&maxheight=4096&mode=pad&format=jpg);
+  background-size: cover;
+}
+
+.character {
+  width: 100px;
+  height: 80px;
+  background-color: white;
+  /* -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg);
+  -o-transform: skew(-20deg); */
+  transform: skew(-20deg);
+  margin: 5px 5px;
+  border-radius: 5px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row:nth-child(1) {
+  margin-top: 100px;
+}
